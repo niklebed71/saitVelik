@@ -1,0 +1,41 @@
+.header {
+  position: absolute;
+  width: 100%;
+  z-index: 50;
+  left: 0;
+  top: 35px;
+}
+.header__row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85px;
+}
+.menu__list {
+  display: flex;
+}
+.menu__link {
+  font-family: Lato;
+  font-size: 13px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #4d4959;
+}
+.header__logo {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: -50%,0px,0px;
+}
+li{padding:0px 37px;
+
+}
+li :nth-child(2){
+  padding:0px 110px 0px 37px;
+
+}
+li :nth-child(3){
+padding:0px 37px 0px 0px;
+}
